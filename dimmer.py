@@ -5,7 +5,6 @@ import tkinter as tk
 
 def main() -> None:
     root = tk.Tk()
-    root.overrideredirect(True)
     root.configure(background='black')
     root.wm_attributes('-alpha', '0.7')
     root.attributes('-type', 'dock')
